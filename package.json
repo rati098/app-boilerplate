@@ -20,6 +20,13 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {},
-  "packageManager": "yarn@1.22.17"
+  "dependencies": {
+    "husky": "^8.0.2"
+  },
+  "packageManager": "yarn@1.22.17",
+  "husky": {
+    "hooks": {
+        "pre-commit": "yarn lint"
+    }
+}
 }
