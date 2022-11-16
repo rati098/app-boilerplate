@@ -14,19 +14,18 @@
   },
   "devDependencies": {
     "eslint-config-custom": "*",
+    "husky": "^8.0.2",
     "prettier": "latest",
     "turbo": "latest"
   },
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {
-    "husky": "^8.0.2"
-  },
+  "dependencies": {},
   "packageManager": "yarn@1.22.17",
   "husky": {
     "hooks": {
-        "pre-commit": "yarn lint"
+      "pre-commit": "yarn lint"
     }
-}
+  }
 }
